@@ -2,7 +2,7 @@
 
 USE AT YOUR OWN RISK. THIS EXAMPLE IS PROVIDED AS IS
 
-Instructions:
+## Instructions:
 
 * Install python3
 * Install cloudgenix python sdk : pip3 install cloudgenix
@@ -20,8 +20,12 @@ cgxAddNATGlobalPrefix.py looks for the following for AUTH, in this order of prec
 * Interactive prompt for user/pass (if one is set, or all other methods fail.)
 
 
-Example of a run:
+## Example of a run:
 ```
 $ python3 cgxAddNATGlobalPrefix.py --prefix "Rich-Internet1" --list prefix_list.txt 
 Prefix updated succesfully
 ```
+
+## Notes
+
+The prefixlist needs to exist. The script will not create a new one for you.
